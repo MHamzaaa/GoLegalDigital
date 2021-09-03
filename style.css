@@ -316,23 +316,8 @@ html{
     
     .boxes{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 6vh 6vh 6vh;
-    }
-
-    .box1{
-        position: relative;
-        top: -200%;
-    }
-
-    .box2{
-        position: relative;
-        top: -200%;
-    }
-
-    .box3{
-        position: relative;
-        top: -200%;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 10rem;
     }
 
     .content{
@@ -378,12 +363,13 @@ html{
     }
     
     .right-btn{
-        height:3.5rem;
-        width: 50%;
+        height:3.2rem;
+        width: 37%;
         border-radius: 2rem;
         position: relative;
         top: 92%;
-        left: 55%;
+        left: 65%;
+        background-repeat: no-repeat;
     }
 }
 
@@ -664,5 +650,30 @@ html{
     .bottom-text{
         font-size: 8px;
         color: white;
+    }
+}
+
+
+@media only screen and (max-width:550px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 5rem 1fr 5rem;
+    }
+    
+    .wrapper-1{
+        display: grid;
+        grid-template-columns: 5rem 1fr 5rem;
+    }
+    .wrapper-2{
+        display: grid;
+        grid-template-columns: 5rem 1fr 5rem;
+    }
+    .wrapper-3{
+        display: grid;
+        grid-template-columns: 5rem 1fr 5rem;
+    }
+    .wrapper-4{
+        display: grid;
+        grid-template-columns: 5rem 1fr 5rem;
     }
 }
