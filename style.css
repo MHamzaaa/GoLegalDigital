@@ -19,7 +19,6 @@ html{
     width: 100%;
     background-color: black;
     display: grid;
-    /* grid-template-columns:10rem 1fr 10rem; */
     grid-template-rows:98vh 100vh 90vh 70vh 60vh;
     grid-template-areas: "main"
                          "second"
@@ -35,6 +34,7 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 90%;
 }
 
 .wrapper-1{
@@ -158,7 +158,7 @@ html{
         background-position: center;
     }
     .logo{
-        width: 85%;
+        width: 100%;
         background-position: top;
         background-size: cover;
     }
@@ -175,6 +175,7 @@ html{
         width: 85%;
         height: 5rem;
         margin-left: 3rem;
+        font-size: 1.2rem;
     }
     .heading{
         display: inline block;
@@ -182,24 +183,26 @@ html{
         margin-top: 5rem;
     }
     .para{
-        font-size: 5px;
-        margin-top: -50px;
+        font-size: 1rem;
+        margin-top: -30px;
         grid-gap: 6px;
+        display: flex;
+        align-items: flex-start;
     }
     .one-1{
-        margin-left: -2px;
+        margin-left: -1px;
     }
     .one-3{
-        margin-left: -5px;
+        margin-left: -2px;
     }
     .btn{
         width: 15rem;
         height: 5rem;
-        border: 3px solid white;
+        border: 2px solid white;
         border-radius: 3rem;
         position: absolute;
-        top: 65%;
-        left: 35%;
+        top: 70%;
+        left: 33%;
         font-size: 6px;
     }
 }
@@ -228,6 +231,15 @@ html{
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+.box-1-heading{
+    margin-left: 1rem;
+}
+.box-2-heading{
+    margin-left: 1rem;
+}
+.box-3-heading{
+    margin-left: 1.5rem;
 }
 .box-1-icon{
     font-size: 6rem;
@@ -314,14 +326,25 @@ html{
 }
 
 .right-btn{
-    background-color: yellow;
+    background-color: rgb(226, 199, 166);
+    color: white;
     height:3.5rem;
     width: 20%;
-    background-image: url('./call.PNG');
     border-radius: 2rem;
     position: relative;
     top: 95%;
     left: 82%;
+    font-size: 8px;
+}
+
+.call-icon{
+    font-size: 12px;
+    margin-right: 1rem;
+    margin-top: 8px;
+}
+
+.call-text{
+    margin-top: 8px;
 }
 
 @media only  screen and (max-width:550px) {
@@ -371,9 +394,9 @@ html{
     .mas{
         width: 32%;
         height: 4rem;
-        font-size: 8px;
+        font-size: 6px;
         border-radius: 2rem;
-        border: 4px solid rgb(7, 7, 22);
+        border: 2px solid rgb(7, 7, 22);
     }
 
     .right{
@@ -418,6 +441,16 @@ html{
         flex-flow: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .box-1-heading{
+        margin-left: 9px;
+    }
+    .box-2-heading{
+        margin-left: 6px;
+    }
+    .box-3-heading{
+        margin-left: 5px;
     }
 }
 
@@ -609,6 +642,18 @@ html{
 
     .city{
         font-size: 1.2rem;
+    }
+
+    .container{
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-rows:90vh 100vh 90vh 52vh 60vh;
+        grid-template-areas: "main"
+                             "second"
+                             "third"
+                             "fourth"
+                             "footer";
     }
 }
 
