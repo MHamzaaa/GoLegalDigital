@@ -29,11 +29,11 @@ html{
 }
 
 .wrapper{
-    background-image: url('https://www.oasistiles.in/assets/images/client.jpg');
-    opacity: 90%;
+    background-image: url('https://c1.wallpaperflare.com/preview/553/190/326/people-business-adult-paper.jpg'); 
     display: grid;
     grid-template-columns: 10rem 1fr 10rem;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -76,7 +76,8 @@ html{
 .header{
     display: flex;
     height: 15vh;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    color: white;
 }
 
 .logo{
@@ -88,16 +89,19 @@ html{
 }
 .home{
     width: 15%;
+    margin-left: 15rem;
 }
 .about{
     width: 15%;
+    margin-left: -6rem;
 }
 .contact{
     width: 20%;
+    margin-left: -10rem;
 }
 .book{
     width: 20%;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(226, 199, 166);
     border-radius: 2rem;
     height: 7vh;
     margin-top: 3rem;
@@ -174,14 +178,13 @@ html{
     }
     .heading{
         display: inline block;
-        font-size: 15px;
+        font-size: 18px;
         margin-top: 5rem;
     }
     .para{
-        display: inline block;
-        font-size: 8px;
+        font-size: 5px;
         margin-top: -50px;
-        grid-gap: 1px;
+        grid-gap: 6px;
     }
     .one-1{
         margin-left: -2px;
@@ -197,7 +200,7 @@ html{
         position: absolute;
         top: 65%;
         left: 35%;
-        font-size: 7px;
+        font-size: 6px;
     }
 }
 
@@ -217,31 +220,44 @@ html{
 }
 
 .box1{
-    background-color: darkslateblue;
+    background-color: #1a2537;
+    color: white;
     position: relative;
     top: -40%;
-    background-image: url('./box-1.PNG');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-1-icon{
+    font-size: 6rem;
+    margin-top: -6rem;
+}
+.box-1-text{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: -4rem;
+    line-height: 3.5rem;
 }
 .box2{
-    background-color: darkturquoise;
+    background-color: #1a2537;
+    color: white;
     position: relative;
     top: -40%;
-    background-image: url('./box-2.PNG');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 .box3{
-    background-color: deeppink;
+    background-color: #1a2537;
+    color: white;
     position: relative;
     top: -40%;
-    background-image: url('./box-3.PNG');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content{
@@ -255,7 +271,7 @@ html{
 }
 .scg{
     font-size: 2rem;
-    color: rgb(7, 7, 22);
+    color: #1a2537;
 }
 .p-1{
     display: block;
@@ -278,7 +294,7 @@ html{
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 85%;
-    color: rgb(7, 7, 22);
+    color: #1a2537;
     font-size: 1.5rem;
 }
 
@@ -286,7 +302,7 @@ html{
     width: 20%;
     height: 5rem;
     border-radius: 2rem;
-    border: 4px solid rgb(7, 7, 22);
+    border: 4px solid #1a2537;
 }
 .right{
     background-color: white;
@@ -335,12 +351,14 @@ html{
         font-size: 10px;
         color: rgb(179, 175, 175);
         width: 100%;
+        margin-bottom: 2rem;
     }
     .p-2{
         width: 100%;
         margin-top: -1.5rem;
         font-size: 10px;
         color: rgb(179, 175, 175);
+        margin-bottom: 3rem;
     }
     .p-3{
         margin-top: -2rem;
@@ -368,8 +386,38 @@ html{
         border-radius: 2rem;
         position: relative;
         top: 92%;
-        left: 65%;
+        left: 60%;
         background-repeat: no-repeat;
+    }
+
+    .box-1-icon{
+        font-size: 2rem;
+        margin-top: -4rem;
+    }
+    .box-1-text{
+        font-size: 5px;
+        margin-top: 2rem;
+        line-height: 1.5rem;
+    }
+    .box2{
+        background-color: #1a2537;
+        color: white;
+        position: relative;
+        top: -40%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box3{
+        background-color: #1a2537;
+        color: white;
+        position: relative;
+        top: -40%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -400,12 +448,36 @@ html{
     background-repeat: no-repeat;
 }
 .tab-2{
-    background-color: lightseagreen;
+    background-color: white;
     height: 77vh;
-    background-image: url('./how.PNG');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+}
+
+.hwdi{
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 2.5rem;
+    color: #1a2537;
+}
+.meeting{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-flow: row;
+}
+.meetIcon{
+    font-size: 6rem;
+    margin-top: -1rem;
+    margin-left: 2rem;
+    color: rgb(226, 199, 166);
+}
+.meetText{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: black;
 }
 
 @media only screen and (max-width:550px) {
@@ -438,18 +510,37 @@ html{
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    .hwdi{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-bottom: 5px;
+    }
+    .meeting{
+        margin-top: 5px;
+        margin-left: 8px;
+        display: flex;
+        flex-flow: row;
+    }
+    .meetIcon{
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .meetText{
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
 }
 
 /* /////////////////////////////Fourth///////////////////////// */
-
-.fourth{
-    background-color: ;
-}
-
+    
 .wcs{
     font-size: 2.5rem;
     margin-top: 10rem;
-    color: rgb(7, 7, 22);
+    color: #1a2537;
 }
 
 .pic{
@@ -480,7 +571,15 @@ html{
 .city{
     font-size: 1.5rem;
     color: rgba(45, 45, 240, 0.897);
-    margin-top: 0.5rem;
+    margin-top: 1rem;
+}
+
+.dott{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: darkgray;
+    margin-top: 3rem;
 }
 
 @media only screen and (max-width:550px) {
@@ -492,19 +591,24 @@ html{
     .pic{
         width: 4rem;
         height: 4rem;
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
     
     .paragraph{
         display: flex;
-        align-items: flex-start;
-        font-size: 1.5rem;
-        margin-top: 1rem;
+        justify-content: center;
+        font-size: 7px;
+        line-height: 1.3rem;
+        margin-top: 3rem;
     }
     
     .name{
-        font-size: 2rem;
-        margin-top: 2rem;
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    .city{
+        font-size: 1.2rem;
     }
 }
 
@@ -555,7 +659,7 @@ html{
 }
 .links{
     font-size: 15px;
-    color: rgb(241, 222, 110);
+    color: rgb(226, 199, 166);
     margin-top: 7rem;
     margin-left: 1rem;
     display: flex;
@@ -563,7 +667,7 @@ html{
     align-items: center;
 }
 .icon{
-    color: rgb(241, 222, 110);
+    color: rgb(226, 199, 166);
     margin-left: 2rem;
     margin-top: 3rem;
     font-size: 1.5rem;
@@ -637,12 +741,12 @@ html{
     }
     .links{
         font-size: 10px;
-        color: rgb(241, 222, 110);
+        color: rgb(226, 199, 166);
         margin-top: 1rem;
         margin-left: 1rem;
     }
     .icon{
-        color: rgb(241, 222, 110);
+        color: rgb(226, 199, 166);
         margin-left: 2rem;
         margin-top: 1rem;
         font-size: 1rem;
