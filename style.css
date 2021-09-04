@@ -338,13 +338,15 @@ html{
 }
 
 .call-icon{
-    font-size: 12px;
-    margin-right: 1rem;
-    margin-top: 8px;
+    font-size: 9px;
+    margin-right: 8px;
+    margin-top: 7px;
 }
 
 .call-text{
     margin-top: 8px;
+    font-size: 12px;
+    margin-right: 2rem;
 }
 
 @media only  screen and (max-width:550px) {
@@ -630,7 +632,7 @@ html{
     .paragraph{
         display: flex;
         justify-content: center;
-        font-size: 7px;
+        font-size: 6px;
         line-height: 1.3rem;
         margin-top: 3rem;
     }
@@ -662,19 +664,16 @@ html{
 /* ////////////////////////////Footer/////////////////////// */
 
 .footer{
-    background-color: ;
     display: grid;
     grid-template-rows: 50vh 10vh;
 }
 
 .footer-top{
-    background-color: ;
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 
 .block-1{
-    background-color: ;
     flex-flow: column;
 }
 .block-1-pic{
@@ -699,7 +698,6 @@ html{
     color: white;
 }
 .block-2{
-    background-color: ;
     flex-flow: column;
 }
 .links{
@@ -726,13 +724,6 @@ html{
     justify-content: flex-start;
     margin-left: 4rem;
     color: white;
-}
-.block-3{
-    background-color: ;
-}
-
-.footer-bottom{
-    background-color: ;
 }
 .bottom-text{
     margin-top: 2.5rem;
